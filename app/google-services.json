@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131256635196",
+    "firebase_url": "https://trelloapp-69c0c.firebaseio.com",
+    "project_id": "trelloapp-69c0c",
+    "storage_bucket": "trelloapp-69c0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131256635196:android:773fd2dfda78d25606d839",
+        "android_client_info": {
+          "package_name": "com.example.trelloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131256635196-vvppu3sauja3369nasi908qampault7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trelloapp",
+            "certificate_hash": "4558d20d9582e4b10972f04c910cd8870ecfc15c"
+          }
+        },
+        {
+          "client_id": "131256635196-nc6ctp2rua86dpkguj4pm4lubcgrs9c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Ol2y7W4OI_8r3hVzkRy3AyFJVbd1dOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131256635196-nc6ctp2rua86dpkguj4pm4lubcgrs9c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

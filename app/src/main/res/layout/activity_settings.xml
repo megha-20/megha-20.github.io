@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+                                       tools:ignore="MissingPrefix"
+                                       xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/toolbar"
+                                       android:minHeight="?attr/actionBarSize"
+                                       android:background="@color/colorPrimaryDark"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mycontent"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/security_questions_btn"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttons"
+        android:hint="set security questions"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"></Button>
+
+
+
+</RelativeLayout>

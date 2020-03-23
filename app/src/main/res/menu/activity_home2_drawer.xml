@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_board"
+            android:icon="@drawable/ic_boards"
+            android:title="Boards" />
+        <item
+            android:id="@+id/nav_teamspirit"
+            android:icon="@drawable/ic_group"
+            android:title="TeamSpirit" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_book_black_48dp"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+
+    </group>
+
+
+
+</menu>
